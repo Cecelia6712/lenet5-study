@@ -1,0 +1,23 @@
+# Data and generated artefacts
+data/
+.cache/
+*.pdf.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Runs (keep metrics, history and curves; drop model weights)
+results/runs/**/checkpoints/
+!results/runs/.gitkeep
+*.pt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
